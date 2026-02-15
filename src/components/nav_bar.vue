@@ -8,7 +8,7 @@
       >
       
           <!-- <img :src="logos" alt="logo" class="w-40 h-40 object-contain" /> -->
-          <span class="text-white font-bold text-lg">โรงเรียนบ้านไร่วิทยา</span> &nbsp;&nbsp;&nbsp;
+          <span class="text-white  text-lg font-[var(--font-sriracha)] ">โรงเรียนบ้านไร่วิทยา</span> &nbsp;&nbsp;&nbsp;
    
         <div class="space-x-6 text-white font-medium">
           <router-link to="/">

@@ -52,20 +52,22 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4"
     >
-      <router-link to="">
+      <router-link to="/ecobalane">
         <div
           class="p-6 cursor-pointer rounded-xl shadow hover:shadow-lg transition flex flex-col items-center justify-center gap-2"
         >
           <img :src="sprout" class="w-12 h-12" />
           <h3 class="text-xl font-semibold text-center">เศษกิจพอเพียง</h3>
         </div>
-      </router-link>
-      <div
+      </router-link >
+      <router-link to="/school_security">
+        <div
         class="p-6 cursor-pointer rounded-xl shadow hover:shadow-lg transition flex flex-col items-center justify-center gap-2"
       >
         <img :src="schoolsecurity" alt="" class="w-12 h-12" />
         <h3 class="text-xl font-semibold text-center">สถานศึกษาปลอดภัย</h3>
       </div>
+      </router-link>
       <div
         class="p-6 cursor-pointer rounded-xl shadow hover:shadow-lg transition flex flex-col items-center justify-center gap-2"
       >

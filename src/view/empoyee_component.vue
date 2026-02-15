@@ -10,9 +10,8 @@
       class="max-w-6xl mx-auto grid grid-cols-1 gap-6 content-center justify-center"
     >
       <!-- manager -->
-      <div class="flex flex-row  justify-center">
+      <div class="flex flex-row justify-center">
         <div
-       
           class="w-64 rounded-2xl bg-white shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer"
         >
           <div>
@@ -65,6 +64,7 @@ import kruja from "../assets/teachers_profile/kruja.jpg";
 import krupam from "../assets/teachers_profile/krupam.jpg";
 import krusai from "../assets/teachers_profile/krusai.jpg";
 import krunem from "../assets/teachers_profile/krunem.jpg";
+import krutik from "../assets/teachers_profile/krutik.jpg";
 
 const manager = {
   name: "นางสาวสิยาพัฐ กันทะเครือ",
@@ -95,8 +95,14 @@ const teachers = [
   {
     name: "นางสาวนริศรา จันทร์คำ",
     position: "ครูชำนาญการพิเศษ",
+    profile: krutik,
+  },
+  {
+    name: "นางสาวนริศรา จันทร์คำ",
+    position: "ครูชำนาญการพิเศษ",
     profile: krusai,
   },
+
   {
     name: "นางสาววัชราวลี ยุวรัตนพร",
     position: "ครูชำนาญการ",
