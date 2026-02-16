@@ -72,6 +72,7 @@ import krubird from "../assets/teachers_profile//krubird.jpg";
 import krufone from "../assets/teachers_profile/krufon.jpg";
 import krumod from "../assets/teachers_profile/krumod.jpg";
 import manat from "../assets/teachers_profile/manat.jpg";
+import krudow from "../assets/teachers_profile/krudow.jpeg";
 
 const manager = {
   name: "นางสาวสิยาพัฐ กันทะเครือ",
@@ -98,6 +99,11 @@ const teachers = [
     name: "นางสาวณัฐรดา ปิ่นประยูร",
     position: "ครูชำนาญการพิเศษ",
     profile: kruja,
+  },
+  {
+    name: "นางพรนรินทร์ มะโนคำ",
+    position: "ครูชำนาญการพิเศษ",
+    profile: krudow,
   },
   {
     name: "นางจรรยา ทากาศ",
