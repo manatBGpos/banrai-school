@@ -1,8 +1,8 @@
 <template>
   <div class="pt-24 pb-12 w-full">
     <!-- Title -->
-    <h2 class="text-3xl mt-5 font-bold text-center text-pink-600 mb-8">
-      บุคลากร
+    <h2 class="่ text-2xl mt-5 text-center text-pink-600 mb-8">
+      บุคลากรทางการศึกษา โรงเรียนบ้านไร่วิทยา
     </h2>
 
     <!-- CONTENT -->
@@ -22,7 +22,7 @@
             />
           </div>
           <div class="p-1 text-center">
-            <h3 class="text-md font-bold">{{ manager.name }}</h3>
+            <h3>{{ manager.name }}</h3>
             <p class="text-gray-500">{{ manager.position }}</p>
           </div>
         </div>
@@ -47,7 +47,7 @@
             />
           </div>
           <div class="p-1 text-center">
-            <h3 class="text-md font-bold">{{ teacher.name }}</h3>
+            <h3 class="">{{ teacher.name }}</h3>
             <p class="text-gray-500">{{ teacher.position }}</p>
           </div>
         </div>
@@ -65,6 +65,13 @@ import krupam from "../assets/teachers_profile/krupam.jpg";
 import krusai from "../assets/teachers_profile/krusai.jpg";
 import krunem from "../assets/teachers_profile/krunem.jpg";
 import krutik from "../assets/teachers_profile/krutik.jpg";
+import krukai from "../assets/teachers_profile/krukai.jpg";
+import kruaom from "../assets/teachers_profile/kruaom.JPG";
+import krumi from "../assets/teachers_profile/krumi.jpg";
+import krubird from "../assets/teachers_profile//krubird.jpg";
+import krufone from "../assets/teachers_profile/krufon.jpg";
+import krumod from "../assets/teachers_profile/krumod.jpg";
+import manat from "../assets/teachers_profile/manat.jpg";
 
 const manager = {
   name: "นางสาวสิยาพัฐ กันทะเครือ",
@@ -78,6 +85,11 @@ const teachers = [
     profile: kruranee,
   },
   {
+    name: "นางอ้อมฤทัย  พรชัยโรจน์",
+    position: "ครูชำนาญการพิเศษ", 
+    profile: kruaom,
+  },
+  {
     name: "นางกาญจนา ปวงคำ",
     position: "ครูชำนาญการพิเศษ",
     profile: krukan,
@@ -88,9 +100,19 @@ const teachers = [
     profile: kruja,
   },
   {
+    name: "นางจรรยา ทากาศ",
+    position: "ครูชำนาญการพิเศษ",
+    profile: krukai,
+  },
+  {
     name: "นางจันทนา ประเสริฐรัตนา",
     position: "ครูชำนาญการพิเศษ",
     profile: krupam,
+  },
+  {
+    name: "นางสาวแสงมณี  ซื่อสัตย์",
+    position: "ครูชำนาญการพิเศษ",
+    profile: krumi,
   },
   {
     name: "นางสาวนริศรา จันทร์คำ",
@@ -107,6 +129,26 @@ const teachers = [
     name: "นางสาววัชราวลี ยุวรัตนพร",
     position: "ครูชำนาญการ",
     profile: krunem,
+  },
+  {
+    name: "นายธนพล ศรีเมือง",
+    position: "ครู",
+    profile: krubird,
+  },
+  {
+    name: "นางกัลยา ขจรศักดิ์ศรี",
+    position: "ครู",
+    profile: krufone,
+  },
+  {
+    name: "นางสาวสุทธิพร เกตุบรรจง",
+    position: "พนักงานราชการ",
+    profile: krumod,
+  },
+  {
+    name: "นายมนัส พิทยาการนุรัตน์",
+    position: "ธุรการโรงเรียน",
+    profile: manat,
   },
 ];
 </script>
