@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap');
 @import "tailwindcss";
 @theme {
   --font-mitr: "Mitr", sans-serif;
@@ -10,4 +10,5 @@ body {
   font-family: "Mitr", sans-serif;
 }
 
-
+ */
+@import "tailwindcss";
