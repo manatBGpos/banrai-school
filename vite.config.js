@@ -18,5 +18,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/banrai-school/',   // ⬅️ ชื่อ repo
+  base: '/',   // ⬅️ ชื่อ repo
 })
