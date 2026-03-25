@@ -25,7 +25,7 @@
               โรงเรียนบ้านไร่วิทยา
             </span>
             <span class="text-white text-xs italic font-[Sriracha]">
-              สำนักงานเขตพื้นที่การศึกษาประถมศึกษาแม่ฮ่องสอน เขต 2 
+              สำนักงานเขตพื้นที่การศึกษาประถมศึกษาแม่ฮ่องสอน เขต 2
             </span>
           </div>
         </div>
@@ -69,13 +69,25 @@
               <span class="">ประชาสัมพันธ์</span>
             </div>
           </router-link>
+
+          <router-link to="/news_letter">
+            <div
+              class="flex gap-1 p-1 hover:border-solid-1 hover:border-1 hover:cursor-pointer hover:bg-indigo-600 rounded-md transition duration-700 ease-in-out"
+            >
+              <img
+                :src="megaphoneIcon"
+                alt=""
+                class="w-6 h-6 object-contain text-amber-50"
+              />
+              <span class="">จดหมายข่าว</span>
+            </div>
+          </router-link>
         </div>
       </div>
     </nav>
   </div>
 </template>
 <script setup>
-
 import logos from "../assets/image/logo.png";
 import homeIcon from "../assets/icons/home.png";
 import userAccountIcon from "../assets/icons/user-account.png";

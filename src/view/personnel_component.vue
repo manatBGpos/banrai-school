@@ -87,7 +87,7 @@ const teachers = [
   },
   {
     name: "นางอ้อมฤทัย  พรชัยโรจน์",
-    position: "ครูชำนาญการพิเศษ", 
+    position: "ครูชำนาญการพิเศษ",
     profile: kruaom,
   },
   {

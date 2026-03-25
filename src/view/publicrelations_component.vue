@@ -22,7 +22,7 @@
       <!-- Description -->
       <div>
         <h2 class="text-2xl font-semibold text-gray-800 mb-4">
-          รับสมคีนักเรียน ประจำปีการศึกษา 2569
+          รับสมัครนักเรียน ประจำปีการศึกษา 2569
         </h2>
 
         <p class="text-gray-600 leading-relaxed mb-6">
